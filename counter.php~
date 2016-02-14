@@ -1,0 +1,17 @@
+<?php
+    echo "I am PHP counter!"
+
+    $file = "counter.txt";
+    
+    if (!file_exists($file)) {
+      $f = fopen($file, "w");
+      fwrite($f,"0");
+      fclose($f);
+    }
+
+    $current = file_get_contents($file);
+    $current = $current + 1;
+    file_put_contents($file, $current);
+
+    echo "Counter is: " . $current;
+?>

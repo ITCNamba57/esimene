@@ -1,0 +1,42 @@
+body {
+	background-color: #C0C0C0; 
+}
+
+#heading {
+	color: #800000;
+}
+
+#div {
+	background-color: #FFFFF0;
+	
+}
+
+div {
+	text-align: justify;
+	background-color: #808080;
+}
+
+#menu {
+	color: #808000;
+	text-decoration: overline;
+	font-weight: bold;
+}
+
+#li:hover {
+	text-transform: uppercase;
+}
+
+iframe {
+	border-style: solid;
+	border-color: black;
+	border-width: 4px;
+	border-radius: 25px;
+}
+
+td:hover {
+	background-color: red;
+}
+
+
+
+ 

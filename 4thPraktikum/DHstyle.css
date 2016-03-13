@@ -1,0 +1,70 @@
+body {
+	background-color: #0a24a9;
+}
+
+#duckhunt {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+	
+
+.ring {
+	position: absolute;
+	border-radius: 50%;
+}
+
+.ring:nth-child(1) {
+	width: 120px;
+	height: 120px;
+	background-color: white;
+	border: 2px solid white;
+	left: 800px;
+	top: 400px;
+}
+
+.ring:nth-child(2) {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border: 2px solid red;
+	left: 810px;
+	top: 410px;
+}
+
+.ring:nth-child(3) {
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	border: 2px solid white;
+	left: 820px;
+	top: 420px;
+}
+
+.ring:nth-child(4) {
+	width: 60px;
+	height: 60px;
+	background-color: red;
+	border: 2px solid red;
+	left: 830px;
+	top: 430px;
+}
+
+.ring:nth-child(5) {
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border: 2px solid white;
+	left: 840px;
+	top: 440px;
+}
+
+.ring:nth-child(6) {
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border: 2px solid red;
+	left: 850px;
+	top: 450px;
+}

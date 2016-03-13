@@ -1,0 +1,42 @@
+#wrap {
+	max-width: 1000px;
+	min-width: 600px;
+	margin: auto;
+	background-color: #c0c0c0;
+}
+
+#val {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li:last-child {
+	float: right;
+}
+
+li a {
+	background-color: #b0b0b0;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
